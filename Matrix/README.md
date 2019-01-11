@@ -1,4 +1,6 @@
-Bash script to perform basic matrix operations that are passed in via file or stdin.
+# Matrix operations
+
+This project consists of a Bash script to perform basic matrix operations that are passed in via file or stdin.
 
 matrix dims [MATRIX]
 Prints error message to stderr, nothing to stdout and return value != 0 if:
