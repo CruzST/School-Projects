@@ -8,7 +8,7 @@ var url = require('url');
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
 app.set('mysql', mysql);
-app.set('port', 2098);
+app.set('port', 4170);
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended:true}));
 
